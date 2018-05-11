@@ -4,7 +4,8 @@ import io.github.ifanzero.method.RomanToInt_13_S;
 
 public class Solution {
     public static void main(String[] args) {
-
+        Solution solution = new Solution();
+        System.out.println(solution.romanToInt("MCMXCIV"));
     }
 
 
