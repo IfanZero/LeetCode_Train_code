@@ -1,4 +1,4 @@
-package io.github.ifanzero.method;
+package io.github.ifanzero.method.M_15_threeSum;
 
 import org.junit.Test;
 
@@ -6,11 +6,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class threeSum_15 {
+/**
+ * @author Ifan
+ * @url https://leetcode-cn.com/problems/3sum
+ */
+public class threeSum {
 
     @Test
     public void test(){
-        List<List<Integer>> lists = threeSum_15.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
+        List<List<Integer>> lists = threeSum.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
         System.out.println(lists);
     }
 

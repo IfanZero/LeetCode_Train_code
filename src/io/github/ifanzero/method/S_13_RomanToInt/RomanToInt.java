@@ -1,6 +1,10 @@
-package io.github.ifanzero.method;
+package io.github.ifanzero.method.S_13_RomanToInt;
 
-public class RomanToInt_13_S {
+/**
+ * @author Ifan
+ * @url https://leetcode-cn.com/problems/roman-to-integer
+ */
+public class RomanToInt {
     public static int romanToInt(String s) {
 
         int length = s.length();

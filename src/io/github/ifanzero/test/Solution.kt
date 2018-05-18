@@ -1,14 +1,14 @@
 package io.github.ifanzero.test
 
-import io.github.ifanzero.method.RomanToInt_13_S
-import io.github.ifanzero.method.longest_common_prefix_14_S
-import io.github.ifanzero.method.threeSum_15
+import io.github.ifanzero.method.S_13_RomanToInt.RomanToInt
+import io.github.ifanzero.method.S_14_longest_common_prefix.longest_common_prefix
+import io.github.ifanzero.method.M_15_threeSum.threeSum
 
 class Solution {
 
 
     fun romanToInt(s: String): Int {
-        return RomanToInt_13_S.romanToInt(s)
+        return RomanToInt.romanToInt(s)
     }
 
     /**
@@ -17,11 +17,11 @@ class Solution {
      * @return
      */
     fun longestCommonPrefix(strs: Array<String>): String {
-        return longest_common_prefix_14_S.longestCommonPrefix1(strs)
+        return longest_common_prefix.longestCommonPrefix1(strs)
     }
 
     fun threeSum(nums: IntArray): List<List<Int>>? {
-        return threeSum_15.threeSum(nums)
+        return threeSum.threeSum(nums)
     }
 
     companion object {

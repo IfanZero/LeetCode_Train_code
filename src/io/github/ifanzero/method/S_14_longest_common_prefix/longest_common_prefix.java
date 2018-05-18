@@ -1,6 +1,10 @@
-package io.github.ifanzero.method;
+package io.github.ifanzero.method.S_14_longest_common_prefix;
 
-public class longest_common_prefix_14_S {
+/**
+ * @author Ifan
+ * @url https://leetcode-cn.com/problems/longest-common-prefix
+ */
+public class longest_common_prefix {
     public static String longestCommonPrefix(String[] strs) {
         int length = strs.length;
         if (length==0){

@@ -1,4 +1,4 @@
-package io.github.ifanzero.method;
+package io.github.ifanzero.method.M_16_threeSumClosest;
 
 import org.junit.Test;
 
@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author Ifan
+ * @url https://leetcode-cn.com/problems/3sum-closest
+ */
 public class threeSumClosest {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
